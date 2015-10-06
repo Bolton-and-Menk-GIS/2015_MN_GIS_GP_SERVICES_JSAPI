@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="http://js.arcgis.com/3.14/esri/css/esri.css">
     <link rel="stylesheet" href="style.css">
     <script src="http://js.arcgis.com/3.14/"></script>
-    <script src="js/map.js"></script>
+    <script src="map.js"></script>
 </head>
 
 <body class="claro">
@@ -20,10 +20,18 @@
         <div id="dlg-header">Export Feature Attachments</div>
         <div class="dlg-body" id="prompt">Hit OK and drag box to select features</div>
 		<div class="dlg-body">
-			<label for="out-folder">Output Folder Name:</label>
-			<form>
-				<input type="text"id="out-folder">
-			</form>
+			<table>
+				<tr>
+					<td>
+						<label for="out-folder">Output Folder Name:</label>
+					</td>
+					<td>
+						<form>
+							<input type="text"id="out-folder">
+						</form>
+					</td>
+				</tr>
+			</table>
 		</div>
         <div class="dlg-body">
             <label for="layer-choice">Choose Layer: </label>
