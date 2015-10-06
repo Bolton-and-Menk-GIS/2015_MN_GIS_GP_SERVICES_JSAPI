@@ -146,9 +146,9 @@ require([
     // event listener for identify tool
     function activateIdentify() {
         if (toggleID.checked) {
-            identifyListener = dojo.connect(map, "onClick", executeIdentifyTask);
+            identifyListener = map.on("Click", executeIdentifyTask);
         } else {
-            dojo.disconnect(identifyListener);
+            identifyListener.remove();
         }
     }
 
