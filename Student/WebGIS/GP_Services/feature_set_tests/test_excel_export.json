@@ -1,0 +1,566 @@
+{
+    "fields": [{
+        "name": "OBJECTID",
+        "type": "esriFieldTypeOID",
+        "alias": "OBJECTID",
+        "editable": false,
+        "nullable": false
+    }, {
+        "name": "HYD_NUM",
+        "type": "esriFieldTypeString",
+        "alias": "Hydrant Number",
+        "length": 20,
+        "editable": true,
+        "nullable": true
+    }, {
+        "name": "HYD_TYPE",
+        "type": "esriFieldTypeString",
+        "alias": "Type",
+        "length": 20,
+        "editable": true,
+        "nullable": true
+    }, {
+        "name": "PROJ_NAME",
+        "type": "esriFieldTypeString",
+        "alias": "Project Name",
+        "length": 255,
+        "editable": true,
+        "nullable": true
+    }, {
+        "name": "PROJ_NUM",
+        "type": "esriFieldTypeString",
+        "alias": "Project Number",
+        "length": 20,
+        "editable": true,
+        "nullable": true
+    }, {
+        "name": "YR_INST",
+        "type": "esriFieldTypeSmallInteger",
+        "alias": "Year Installed",
+        "editable": true,
+        "nullable": true
+    }, {
+        "name": "PDF_LOC",
+        "type": "esriFieldTypeString",
+        "alias": "PDF Location",
+        "length": 50,
+        "editable": true,
+        "nullable": true
+    }, {
+        "name": "ASBUILT",
+        "type": "esriFieldTypeString",
+        "alias": "Asbuilt",
+        "length": 30,
+        "editable": true,
+        "nullable": true,
+        "domain": {
+            "name": "Asbuilt",
+            "type": "codedValue",
+            "codedValues": [{
+                "name": "Yes",
+                "code": "Yes"
+            }, {
+                "name": "No",
+                "code": "No"
+            }]
+        }
+    }, {
+        "name": "HL_ACCU",
+        "type": "esriFieldTypeString",
+        "alias": "Horizontal Accuracy",
+        "length": 30,
+        "editable": true,
+        "nullable": true
+    }, {
+        "name": "CONDITION",
+        "type": "esriFieldTypeString",
+        "alias": "Condition",
+        "length": 254,
+        "editable": true,
+        "nullable": true
+    }, {
+        "name": "NORTHING",
+        "type": "esriFieldTypeString",
+        "alias": "Northing",
+        "length": 254,
+        "editable": true,
+        "nullable": true
+    }, {
+        "name": "EASTING",
+        "type": "esriFieldTypeString",
+        "alias": "Easting",
+        "length": 254,
+        "editable": true,
+        "nullable": true
+    }, {
+        "name": "GPS_HEIGHT",
+        "type": "esriFieldTypeString",
+        "alias": "GPS Height",
+        "length": 254,
+        "editable": true,
+        "nullable": true
+    }, {
+        "name": "GlobalID",
+        "type": "esriFieldTypeGlobalID",
+        "alias": "GlobalID",
+        "length": 38,
+        "editable": false,
+        "nullable": false
+    }],
+    "geometryType": "esriGeometryPoint",
+    "features": [{
+        "geometry": {
+            "x": -10438763.222688189,
+            "y": 5559969.233230596,
+            "spatialReference": {
+                "wkid": 102100,
+                "latestWkid": 3857
+            }
+        },
+        "attributes": {
+            "OBJECTID": 49,
+            "HYD_NUM": "HSW-11",
+            "HYD_TYPE": "HYDRANT",
+            "PROJ_NAME": "CHATFIELD ON THE GREEN 1ST ADDN",
+            "PROJ_NUM": "M15.35131",
+            "YR_INST": 2004,
+            "PDF_LOC": null,
+            "ASBUILT": null,
+            "HL_ACCU": null,
+            "CONDITION": "GOOD",
+            "NORTHING": "149822.155332893",
+            "EASTING": "381145.782287881",
+            "GPS_HEIGHT": " ",
+            "GlobalID": "{3BBDE94A-F5B7-446E-A7A8-603229671CDE}"
+        }
+    }, {
+        "geometry": {
+            "x": -10438431.135117253,
+            "y": 5559943.268590383,
+            "spatialReference": {
+                "wkid": 102100,
+                "latestWkid": 3857
+            }
+        },
+        "attributes": {
+            "OBJECTID": 50,
+            "HYD_NUM": "HSW-13",
+            "HYD_TYPE": "HYDRANT",
+            "PROJ_NAME": "CHATFIELD ON THE GREEN 1ST ADDN",
+            "PROJ_NUM": "M15.35131",
+            "YR_INST": 2004,
+            "PDF_LOC": null,
+            "ASBUILT": null,
+            "HL_ACCU": null,
+            "CONDITION": "GOOD",
+            "NORTHING": "149757.273900971",
+            "EASTING": "381922.414920971",
+            "GPS_HEIGHT": " ",
+            "GlobalID": "{254D08CA-A4F6-4098-8E56-043B62E2B238}"
+        }
+    }, {
+        "geometry": {
+            "x": -10439051.187933726,
+            "y": 5561238.841265456,
+            "spatialReference": {
+                "wkid": 102100,
+                "latestWkid": 3857
+            }
+        },
+        "attributes": {
+            "OBJECTID": 56,
+            "HYD_NUM": "HNW-90",
+            "HYD_TYPE": "HYDRANT",
+            "PROJ_NAME": "OAK VILLAGE",
+            "PROJ_NUM": "M15.35905",
+            "YR_INST": 2005,
+            "PDF_LOC": null,
+            "ASBUILT": null,
+            "HL_ACCU": null,
+            "CONDITION": "GOOD",
+            "NORTHING": "152786.06574364",
+            "EASTING": "380488.726187304",
+            "GPS_HEIGHT": " ",
+            "GlobalID": "{2A6B1B23-1E81-4871-ACC8-9363CA8D3B5C}"
+        }
+    }, {
+        "geometry": {
+            "x": -10439077.922430253,
+            "y": 5561105.806358983,
+            "spatialReference": {
+                "wkid": 102100,
+                "latestWkid": 3857
+            }
+        },
+        "attributes": {
+            "OBJECTID": 57,
+            "HYD_NUM": "HSW-23",
+            "HYD_TYPE": "HYDRANT",
+            "PROJ_NAME": "OAK VILLAGE",
+            "PROJ_NUM": "M15.35905",
+            "YR_INST": 2005,
+            "PDF_LOC": null,
+            "ASBUILT": null,
+            "HL_ACCU": null,
+            "CONDITION": "GOOD",
+            "NORTHING": "152476.263213649",
+            "EASTING": "380424.436617717",
+            "GPS_HEIGHT": " ",
+            "GlobalID": "{D2420702-7EDC-4D3D-8DBB-E226BABD91DC}"
+        }
+    }, {
+        "geometry": {
+            "x": -10438945.229321588,
+            "y": 5561144.169890101,
+            "spatialReference": {
+                "wkid": 102100,
+                "latestWkid": 3857
+            }
+        },
+        "attributes": {
+            "OBJECTID": 58,
+            "HYD_NUM": "HSW-22",
+            "HYD_TYPE": "HYDRANT",
+            "PROJ_NAME": "OAK VILLAGE",
+            "PROJ_NUM": "M15.35905",
+            "YR_INST": 2005,
+            "PDF_LOC": null,
+            "ASBUILT": null,
+            "HL_ACCU": null,
+            "CONDITION": "GOOD",
+            "NORTHING": "152563.955623567",
+            "EASTING": "380735.356599554",
+            "GPS_HEIGHT": " ",
+            "GlobalID": "{8D4A6AA0-F641-4DC7-BDB7-0287A6854C36}"
+        }
+    }, {
+        "geometry": {
+            "x": -10439080.8205171,
+            "y": 5560813.545519275,
+            "spatialReference": {
+                "wkid": 102100,
+                "latestWkid": 3857
+            }
+        },
+        "attributes": {
+            "OBJECTID": 59,
+            "HYD_NUM": "HSW-25",
+            "HYD_TYPE": "HYDRANT",
+            "PROJ_NAME": "OAK VILLAGE",
+            "PROJ_NUM": "M15.35905",
+            "YR_INST": 2005,
+            "PDF_LOC": null,
+            "ASBUILT": null,
+            "HL_ACCU": null,
+            "CONDITION": "GOOD",
+            "NORTHING": "151794.914182648",
+            "EASTING": "380413.814591721",
+            "GPS_HEIGHT": " ",
+            "GlobalID": "{57041BB5-214F-4CB2-A878-8F246D36E5ED}"
+        }
+    }, {
+        "geometry": {
+            "x": -10435097.455156168,
+            "y": 5559684.833767344,
+            "spatialReference": {
+                "wkid": 102100,
+                "latestWkid": 3857
+            }
+        },
+        "attributes": {
+            "OBJECTID": 60,
+            "HYD_NUM": "HSE-141",
+            "HYD_TYPE": "HYDRANT",
+            "PROJ_NAME": "FARMERS RIDGE 2ND ADDITION",
+            "PROJ_NUM": "M15.35906",
+            "YR_INST": 2005,
+            "PDF_LOC": null,
+            "ASBUILT": null,
+            "HL_ACCU": null,
+            "CONDITION": "GOOD",
+            "NORTHING": "149112.683654726",
+            "EASTING": "389718.966913134",
+            "GPS_HEIGHT": " ",
+            "GlobalID": "{5EAE972B-0095-4DAC-9AE9-9B2898A5D3CD}"
+        }
+    }, {
+        "geometry": {
+            "x": -10434983.362404035,
+            "y": 5559784.165263229,
+            "spatialReference": {
+                "wkid": 102100,
+                "latestWkid": 3857
+            }
+        },
+        "attributes": {
+            "OBJECTID": 61,
+            "HYD_NUM": "HSE-144",
+            "HYD_TYPE": "HYDRANT",
+            "PROJ_NAME": "FARMERS RIDGE 2ND ADDITION",
+            "PROJ_NUM": "M15.35906",
+            "YR_INST": 2005,
+            "PDF_LOC": null,
+            "ASBUILT": null,
+            "HL_ACCU": null,
+            "CONDITION": "GOOD",
+            "NORTHING": "149342.913837314",
+            "EASTING": "389987.114670798",
+            "GPS_HEIGHT": " ",
+            "GlobalID": "{33F7BE8A-67F2-42AA-9A09-2F10E8F15B24}"
+        }
+    }, {
+        "geometry": {
+            "x": -10434985.683230458,
+            "y": 5559936.657448109,
+            "spatialReference": {
+                "wkid": 102100,
+                "latestWkid": 3857
+            }
+        },
+        "attributes": {
+            "OBJECTID": 62,
+            "HYD_NUM": "HSE-147",
+            "HYD_TYPE": "HYDRANT",
+            "PROJ_NAME": "FARMERS RIDGE 2ND ADDITION",
+            "PROJ_NUM": "M15.35906",
+            "YR_INST": 2005,
+            "PDF_LOC": null,
+            "ASBUILT": null,
+            "HL_ACCU": null,
+            "CONDITION": "GOOD",
+            "NORTHING": "149698.511223227",
+            "EASTING": "389983.529048055",
+            "GPS_HEIGHT": " ",
+            "GlobalID": "{CFC1B73E-CA09-42C3-A65C-108CA985395E}"
+        }
+    }, {
+        "geometry": {
+            "x": -10435109.424613995,
+            "y": 5559860.79995606,
+            "spatialReference": {
+                "wkid": 102100,
+                "latestWkid": 3857
+            }
+        },
+        "attributes": {
+            "OBJECTID": 63,
+            "HYD_NUM": "HSE-148",
+            "HYD_TYPE": "HYDRANT",
+            "PROJ_NAME": "FARMERS RIDGE 2ND ADDITION",
+            "PROJ_NUM": "M15.35906",
+            "YR_INST": 2005,
+            "PDF_LOC": null,
+            "ASBUILT": null,
+            "HL_ACCU": null,
+            "CONDITION": "GOOD",
+            "NORTHING": "149523.137230143",
+            "EASTING": "389693.095573798",
+            "GPS_HEIGHT": " ",
+            "GlobalID": "{83981077-F394-4CD5-8881-8780D2EA9F13}"
+        }
+    }, {
+        "geometry": {
+            "x": -10439025.169560313,
+            "y": 5560729.4467390925,
+            "spatialReference": {
+                "wkid": 102100,
+                "latestWkid": 3857
+            }
+        },
+        "attributes": {
+            "OBJECTID": 64,
+            "HYD_NUM": "HSW-30",
+            "HYD_TYPE": "HYDRANT",
+            "PROJ_NAME": "ELK STREET EXTENSION",
+            "PROJ_NUM": "M15.38535",
+            "YR_INST": 2006,
+            "PDF_LOC": null,
+            "ASBUILT": null,
+            "HL_ACCU": null,
+            "CONDITION": "GOOD",
+            "NORTHING": "151598.105521142",
+            "EASTING": "380542.901931971",
+            "GPS_HEIGHT": " ",
+            "GlobalID": "{B04BC260-A95B-412F-86BB-E90D1A6B3DB7}"
+        }
+    }, {
+        "geometry": {
+            "x": -10438869.089809673,
+            "y": 5560660.89740162,
+            "spatialReference": {
+                "wkid": 102100,
+                "latestWkid": 3857
+            }
+        },
+        "attributes": {
+            "OBJECTID": 66,
+            "HYD_NUM": "HSW-34",
+            "HYD_TYPE": "HYDRANT",
+            "PROJ_NAME": "WEST COMMERENCE DRIVE EXTENSION",
+            "PROJ_NUM": "M15.37250",
+            "YR_INST": 2006,
+            "PDF_LOC": null,
+            "ASBUILT": null,
+            "HL_ACCU": null,
+            "CONDITION": "GOOD",
+            "NORTHING": "151436.228876397",
+            "EASTING": "380907.146282226",
+            "GPS_HEIGHT": " ",
+            "GlobalID": "{A885F329-3884-4262-8501-9CC70B5C730F}"
+        }
+    }, {
+        "geometry": {
+            "x": -10439177.281112298,
+            "y": 5559381.17637714,
+            "spatialReference": {
+                "wkid": 102100,
+                "latestWkid": 3857
+            }
+        },
+        "attributes": {
+            "OBJECTID": 67,
+            "HYD_NUM": "HSW-44",
+            "HYD_TYPE": "HYDRANT",
+            "PROJ_NAME": "WEST COMMERENCE DRIVE EXTENSION",
+            "PROJ_NUM": "M15.37250",
+            "YR_INST": 2006,
+            "PDF_LOC": null,
+            "ASBUILT": null,
+            "HL_ACCU": null,
+            "CONDITION": "GOOD",
+            "NORTHING": "148456.397565722",
+            "EASTING": "380169.282600477",
+            "GPS_HEIGHT": " ",
+            "GlobalID": "{D621A4A2-3C65-4C06-B67F-155466F129F6}"
+        }
+    }, {
+        "geometry": {
+            "x": -10435402.007927876,
+            "y": 5561870.568419496,
+            "spatialReference": {
+                "wkid": 102100,
+                "latestWkid": 3857
+            }
+        },
+        "attributes": {
+            "OBJECTID": 72,
+            "HYD_NUM": "HNE-137",
+            "HYD_TYPE": "HYDRANT",
+            "PROJ_NAME": "HICKORY BLVD (SOUTH ST TO CR 64)",
+            "PROJ_NUM": "M15.37127",
+            "YR_INST": 2006,
+            "PDF_LOC": null,
+            "ASBUILT": null,
+            "HL_ACCU": null,
+            "CONDITION": "GOOD",
+            "NORTHING": "154212.412300393",
+            "EASTING": "389033.06375739",
+            "GPS_HEIGHT": "843.932",
+            "GlobalID": "{3642D8D1-9766-4533-B6C6-3F3EB3AAE834}"
+        }
+    }, {
+        "geometry": {
+            "x": -10435518.378398756,
+            "y": 5562056.351137281,
+            "spatialReference": {
+                "wkid": 102100,
+                "latestWkid": 3857
+            }
+        },
+        "attributes": {
+            "OBJECTID": 73,
+            "HYD_NUM": "HNE-141",
+            "HYD_TYPE": "HYDRANT",
+            "PROJ_NAME": "HICKORY BLVD (SOUTH ST TO CR 64)",
+            "PROJ_NUM": "M15.37127",
+            "YR_INST": 2006,
+            "PDF_LOC": null,
+            "ASBUILT": null,
+            "HL_ACCU": null,
+            "CONDITION": "GOOD",
+            "NORTHING": "154646.932428733",
+            "EASTING": "388763.125648975",
+            "GPS_HEIGHT": "843.932",
+            "GlobalID": "{4123F2B8-B7E8-43BC-8723-A6B96C40D86F}"
+        }
+    }, {
+        "geometry": {
+            "x": -10435375.353838041,
+            "y": 5562057.007033912,
+            "spatialReference": {
+                "wkid": 102100,
+                "latestWkid": 3857
+            }
+        },
+        "attributes": {
+            "OBJECTID": 74,
+            "HYD_NUM": "HNE-138",
+            "HYD_TYPE": "HYDRANT",
+            "PROJ_NAME": "HICKORY BLVD (SOUTH ST TO CR 64)",
+            "PROJ_NUM": "M15.37127",
+            "YR_INST": 2006,
+            "PDF_LOC": null,
+            "ASBUILT": null,
+            "HL_ACCU": null,
+            "CONDITION": "GOOD",
+            "NORTHING": "154646.70900397",
+            "EASTING": "389097.685347304",
+            "GPS_HEIGHT": "843.932",
+            "GlobalID": "{9D7A6D8D-6FA9-4BBE-B0EE-792C8B48E71C}"
+        }
+    }, {
+        "geometry": {
+            "x": -10435377.941220067,
+            "y": 5562149.087197125,
+            "spatialReference": {
+                "wkid": 102100,
+                "latestWkid": 3857
+            }
+        },
+        "attributes": {
+            "OBJECTID": 75,
+            "HYD_NUM": "HNE-139",
+            "HYD_TYPE": "HYDRANT",
+            "PROJ_NAME": "HICKORY BLVD (SOUTH ST TO CR 64)",
+            "PROJ_NUM": "M15.37127",
+            "YR_INST": 2006,
+            "PDF_LOC": null,
+            "ASBUILT": null,
+            "HL_ACCU": null,
+            "CONDITION": "GOOD",
+            "NORTHING": "154861.3932859",
+            "EASTING": "389092.755895227",
+            "GPS_HEIGHT": "843.932",
+            "GlobalID": "{82A44364-395A-4766-BCCF-233CD03EC349}"
+        }
+    }, {
+        "geometry": {
+            "x": -10435670.709019598,
+            "y": 5562059.600832632,
+            "spatialReference": {
+                "wkid": 102100,
+                "latestWkid": 3857
+            }
+        },
+        "attributes": {
+            "OBJECTID": 76,
+            "HYD_NUM": "HNE-158",
+            "HYD_TYPE": "HYDRANT",
+            "PROJ_NAME": "T.H. 169 SOUTH FRONTAGE ROAD",
+            "PROJ_NUM": "M15.100010",
+            "YR_INST": 2010,
+            "PDF_LOC": "P0193",
+            "ASBUILT": "Yes",
+            "HL_ACCU": null,
+            "CONDITION": "GOOD",
+            "NORTHING": "154656.380244479",
+            "EASTING": "388406.845849723",
+            "GPS_HEIGHT": null,
+            "GlobalID": "{068F434F-9FB4-4C37-8634-BB9ABC57097A}"
+        }
+    }],
+    "sr": {
+        "wkid": 102100,
+        "latestWkid": 3857
+    }
+}
